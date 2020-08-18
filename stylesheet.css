@@ -23,6 +23,21 @@
   margin-left: 70px;
 }
 
+.left{
+  position:relative;
+  margin-top: 300px;
+  float:left;
+  width: 40%;
+  overflow:hidden;
+  margin-left: 40px;
+}
+
+.right{
+  overflow:hidden;
+  text-align:right;
+  margin-left:30%;
+  margin-top: 70%;
+}
 .asccy{
   position:relative;
   margin-left: 400px;
