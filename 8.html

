@@ -7,13 +7,3 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
     <title>hello!</title>
-
-
-<h1></h1>
-<body id="one">
-    <div id=image>
-      Today, I want us to write an
-      <a href = "2.html">
-      email!
-      </a>
-    </div>
