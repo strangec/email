@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,12 +6,27 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>💌</title>
 
+</head>
+<body id="questions">
+  <i>What would the world look like if it were programmed for you by someone who loved you?</i>
+    <br> <br> <br>
+  <form name="submit-to-google-sheet">
+          <input name="email" type="email" placeholder="email for gift" required>
+          <textarea name="thoughts" placeholder="your thoughts here! A word or a sentence :)"></textarea>
 
-<h1></h1>
-<body> <div id="invisible">
-    <div class="firstslide">
-      Today, I want us to write an<a href = "2.html"><span id=visible> email!</a><span>
-    </div>
-    </div>
-    <img src="https://github.com/strangec/email/blob/master/hello.gif?raw=true" class="waveimg">
-</body>
+          <a href="1.html"><button type="submit">Send</button></a>
+        </form>
+        <br><br><br><br>
+        <p class="melanie" style="font-size:11pt"> (Thank you to Melanie Hoff for this question)</p>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx192CtcGgAdOzKTMEjh9W-h8cilM1Vk6vOkAycWR3RhesaMZI/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
