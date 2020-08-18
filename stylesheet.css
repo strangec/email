@@ -85,3 +85,51 @@
   text-align:center;
   margin-top: 200px;
 }
+
+.pleasure{
+  position:relative;
+  margin-top:300px;
+}
+
+.collective-lib{
+  position:relative;
+  margin-top:600px;
+  margin-left:850px;
+}
+
+.poem{
+  width:768px;
+  height:364px;
+  margin: auto;
+  width: 50%;
+  margin-top:18%;
+
+}
+
+.poemimg{
+  height:100vh;
+}
+
+.smiley{
+  position:relative;
+  margin-top:400px;
+  margin-left: 70px;
+}
+
+.smileywidth{
+display: flex;
+width:100%;
+word-wrap:break-word;
+}
+
+#thankyou{
+  background-image: url('thank-you.gif')
+}
+
+.lasttext{
+  font-size: 1120%;
+  color: greenyellow;
+  margin-top: 20%;
+  text-align: left;
+
+}
