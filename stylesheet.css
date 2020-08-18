@@ -1,3 +1,11 @@
 #one{
   background-image: url("https://github.com/strangec/email/blob/master/hello.gif?raw=true");
 }
+
+#invisible{
+  visibility:hidden;
+}
+
+#visible{
+  visibility:visible;
+}
