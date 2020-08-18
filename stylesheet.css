@@ -148,3 +148,9 @@ word-wrap:break-word;
   text-align: left;
 
 }
+
+#questions{
+  background-image:linear-gradient(chartreuse, papayawhip);
+  color: white;
+  font-size: 140%;
+}
