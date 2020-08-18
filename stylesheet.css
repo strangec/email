@@ -27,3 +27,61 @@
   position:relative;
   margin-left: 400px;
 }
+
+.matter{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.o{
+  position:relative;
+  margin-top: 40px;
+  margin-left: 900px;
+}
+
+.ooo{
+  position: relative;
+  margin-left: 300px;
+
+}
+
+.tongue{
+  position:relative;
+  margin-left: 600px;
+  margin-top: 90px;
+  max-width:30%;
+  height:auto;
+}
+
+.what-i-mean{
+  position:relative;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.craftiness{
+  position:relative;
+  margin-top: 300px;
+  float:left;
+  width: 40%;
+  overflow:hidden;
+  margin-left: 40px;
+}
+
+.collaboration{
+  max-width: 90%;
+  height:auto;
+  margin-top: 120px;
+}
+
+.right {
+  overflow: hidden;
+}
+
+.loved-you{
+  position:relative;
+  text-align:center;
+  margin-top: 200px;
+}
