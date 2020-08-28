@@ -150,7 +150,8 @@ word-wrap:break-word;
 }
 
 #questions{
-  background-image:linear-gradient(chartreuse, papayawhip);
+  background-image:repeating-linear-gradient(chartreuse, papayawhip 35%);
+  background-size: 20px;
   color: white;
   font-size: 140%;
 }
