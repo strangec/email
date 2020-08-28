@@ -125,6 +125,10 @@
   height:100vh;
 }
 
+.screen{
+  width:100%;
+}
+
 .smiley{
   position:relative;
   margin-top:400px;
